@@ -55,7 +55,7 @@ const App = () => {
         <img
           src={running ? '/running-man.gif' : '/standing man.jpg'}
           alt={running ? 'Running Man' : 'Standing Man'}
-          className={`running-man ${running ? 'running' : 'standing'}`}
+          className={`running-man ${running ? 'running' : 'standing'} h-60 w-96`}
         />
       </div>
     </div>
