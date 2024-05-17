@@ -40,3 +40,28 @@
 .read-the-docs {
   color: #888;
 }
+.running-man-container {
+  position: relative;
+  width: 100%; /* Takes the full width of the viewport */
+  height: 150px; /* Adjust height based on the GIF */
+  overflow: hidden; /* Ensures the running man doesn't go beyond this container */
+  margin-top: 20px; /* Space between stopwatch and GIFs */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.running-man {
+  height: 100px; /* Adjust based on the GIF height */
+}
+
+@keyframes run {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translate(100%);
+  }
+}
+
+
